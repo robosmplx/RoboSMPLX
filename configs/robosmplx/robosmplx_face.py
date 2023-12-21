@@ -221,7 +221,7 @@ data = dict(
 
 custom_imports = dict(
     imports=[
-        'mmhuman3d.models.heads.robosmplx_part_head', 'mmhuman3d.models.backbones.dilated_resnet',
-        'mmhuman3d.data.datasets.pipelines.nips'
+        'mmhuman3d.models.heads.robosmplx_head', 'mmhuman3d.models.backbones.dilated_resnet',
+        'mmhuman3d.data.datasets.pipelines.extra_transforms'
     ],
     allow_failed_imports=False)
